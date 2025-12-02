@@ -6,4 +6,49 @@
 
 body {
     display: flex;
+    flex-direction: column;
+}
+
+.nav,
+.header {
+    background-color: #1f2937;
+}
+
+.nav {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 24px;
+    color: #f9faf8;
+    padding-left: 100px;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding-right: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.header,
+.card-container,
+.quote,
+.container-four {
+    flex: 1;
+}
+
+.footer {
+    background-color: #e5e7eb;
+    color: #1f2937
 }
