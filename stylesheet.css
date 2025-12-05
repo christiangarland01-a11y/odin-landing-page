@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", "Noto Sans", "Open Sans";
 }
 
 body {
@@ -97,6 +98,8 @@ button {
 
 h2 {
     width: 100%;
+    font-size: 36px;
+    font-weight: 900;
     text-align: center;
 }
 
@@ -121,13 +124,48 @@ h2 {
 }
 
 .quote {
-    width: 800px;
-    height: 350px;
+    width: 100%;
+    min-height: 350px;
+    padding: 0 75px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
-.contianer-four {
+.quote p {
+    max-width: 800px;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.quote > :last-child {
     width: 800px;
-    height: 350px;
+    text-align: right;
+    font-weight: 900;
+}
+
+.container-four {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    color: white;
+    width: 800px;
+    height: 100px;
+    margin: 125px 0;
+    border-radius: 10px;
+}
+
+.text > :first-child {
+    font-weight: 900;
+}
+
+.container-four > button {
+    border: 2px solid white;
+    margin-left: 10px;
 }
 
 .footer {
